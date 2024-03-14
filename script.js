@@ -53,6 +53,8 @@ topic.forEach(function (item, index) {
         let flag = document.getElementById(this.dataset.name).className
         if(flag !== ('topic2 hidden')) {
             $(target).addClass('hidden')
+            const scrollName = document.getElementById('header')
+            scrollName.scrollIntoView(false)
         } else {
         $('.topic2').addClass('hidden')
         $(target).toggleClass('hidden')
