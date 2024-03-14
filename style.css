@@ -1,0 +1,349 @@
+@charset "utf-8";
+/* font-family: 'Yusei Magic', sans-serif; */
+
+body {
+    font-family: 'M PLUS 1', sans-serif;
+    width: 100%;
+    height: 200%;
+    margin: 0 auto;
+    min-width: 375px;
+    max-width: 1366px;
+    background-image: url(../img/bgsky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hidden {
+    display: none;
+}
+
+header .links {
+    position: fixed;
+    top: 0px;
+    height: 3.0vw;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1366px;
+
+    @media screen and (max-width: 690px) {
+        height: 2.0vw;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 690px;
+    }
+}
+
+.links {
+    z-index: 20;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2vw 0;
+}
+
+.links ul li {
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-transform: capitalize;
+    @media screen and (max-width: 690px) {
+        font-size: 3vw;
+    }
+}
+
+header .headerTitle {
+    width: 100%;
+    font-size: 2.7vw;
+    position: relative;
+    height: 11.4vw;
+    margin: 0 auto 4.5vw;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.7vw;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 2.3vw 0;
+    @media screen and (max-width: 690px) {
+        font-size: 4vw;
+    }
+}
+
+h2 {
+    font-size: 1.3vw;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 1.5vw 0;
+    @media screen and (max-width: 690px) {
+        font-size: 3vw;
+    }
+}
+
+.title1 {
+    color: #d4ffe3;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+.title1Span1 {
+    letter-spacing: 0.2em;
+}
+
+.title1Span2 {
+    letter-spacing: 0.13m;
+}
+
+.title1Span3 {
+    letter-spacing: -0.1m;
+}
+
+.title2 {
+    color: #15131e;
+    position: absolute;
+    top: 0px;
+    left: 5em;
+    transform: skew(-70deg);
+    letter-spacing: 0.17em;
+    z-index: 9;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.headerTitle div p {
+    padding: 7.6vw 0 0 0;
+    text-align: center;
+}
+
+.Out {
+    width: 70%;
+    margin: 0 auto 4.5vw;
+    @media screen and (max-width: 690px) {
+        width: 85%;
+    }
+}
+
+.Out .White {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5vw;
+    background-color: #cb5e3a;
+}
+
+.Out .White .blackBoard {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #252525;
+    padding: 3.0vw;
+    color: #cecece;
+}
+
+.blackBoard ul li {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.topicTop {
+    font-size: 1.7vw;
+    padding: 0 0 0.8vw 0;
+    @media screen and (max-width: 690px) {
+        font-size: 3.8vw;
+    }
+}
+
+.topicText {
+    font-size: 1.5vw;
+    padding: 0 0 0 0.8vw;
+    margin-bottom: 1.5vw;
+    @media screen and (max-width: 690px) {
+        font-size: 3.6vw;
+        margin-bottom: 2vw;
+    }
+}
+
+.topicText2 {
+    font-size: 1.1vw;
+    padding: 0 0 0 0.8vw;
+    margin: 3.0vw 0 0.8vw;
+    @media screen and (max-width: 690px) {
+        font-size: 3vw;
+    }
+}
+
+.postText {
+    font-size: 1.5vw;
+    padding: 0 0 0 0.8vw;
+    margin-bottom: 1.5vw;
+    @media screen and (max-width: 690px) {
+        font-size: 2.8vw;
+    }
+}
+
+.accent01 {
+    font-size: 1.1vw;
+    @media screen and (max-width: 690px) {
+        font-size: 2.1vw;
+    }
+}
+
+.webLink {
+    margin: 0.6vw 0 1.2vw;
+    font-size: 1.1vw;
+    @media screen and (max-width: 690px) {
+        font-size: 2.8vw;
+        margin: 0.8vw 0 1.6vw;
+    }
+}
+
+.webLink a {
+    padding: 0.2vw;
+    border: 0.07vw #333333 solid;
+}
+
+.topicEnd {
+    margin-bottom: 0.5vw;
+    padding: 0 0 2vw;
+    font-size: 0.8vw;
+    text-align: right;
+    @media screen and (max-width: 690px) {
+        margin-bottom: 1vw;
+        padding: 0 0 3vw;
+        font-size: 1.2vw;
+    }
+}
+
+.line {
+    border-bottom: 0.07vw solid #ffffff;
+    width: 50%;
+    margin: 0 auto 1.5vw;
+    @media screen and (max-width: 690px) {
+        margin: 0 auto 3vw;
+    }
+}
+
+
+footer div {
+    width: 100%;
+    Max-width: 1366px;
+    margin: 0 auto;
+    height: 3.0vw;
+    text-align: center;
+    padding: 0.8vw 0;
+    @media screen and (max-width: 690px) {
+        padding: 0.2vw 0;
+    }
+}
+
+.footertext {
+    align-self: center;
+    font-size: 0.9vw;
+    color: #ffffff;
+    @media screen and (max-width: 690px) {
+        font-size: 2vw;
+    }
+}
+
+.picDiv {
+    width: 80%;
+    margin: 3.0vw auto 3.0vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(../img/panelwool.png);
+    padding: 3.0vw 1.5vw;
+}
+
+.picFream {
+    width: 12.9vw;
+    height: 19vw;
+    border: 0.4vw solid #c0c0c0;
+    margin: 0 1.5vw 2.3vw;
+    @media screen and (max-width: 690px) {
+        width: 24vw;
+        height: 40vw;
+    }
+}
+
+.picFream img {
+    width: 12vw;
+    height: 18vw;
+    object-fit: cover;
+    overflow: hidden;
+    @media screen and (max-width: 690px) {
+        width: 24vw;
+        height: 38vw;
+    }
+}
+
+#modalCase {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 39;
+    background-color: rgba(51, 51, 51, 0.7);
+}
+
+.modalCase2 {
+    width: 44%;
+    margin: 0 auto;
+    height: 50%;
+    background-color: rgba(51, 51, 51, 1);
+    position: fixed;
+    top: 12vw;
+    left: 28%;
+    z-index: 40;
+    @media screen and (max-width: 690px) {
+        width: 72%;
+        top: 18vw;
+        left: 14%;
+    }
+}
+
+.modalBox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 41;
+}
+
+.modalIn {
+    width: 100%;
+    height: 100%;
+    z-index: 42;
+    margin: 0 0 1.5vw 0;
+    border: 0.4vw solid #c0c0c0;
+}
+
+.modalIn2 {
+    width: 60%;
+    height: 60%;
+    z-index: 42;
+    margin: 0 auto;
+}
+
+.modalIn img,
+.modalIn2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.picFreamOff {
+    width: 2.9vw;
+    height: 2.9vw;
+    position: absolute;
+    top: 0.9vw;
+    right: 0.9vw;
+    background-color: #ffffff;
+    z-index: 43;
+    background-image: url(../img/closeBotton.png);
+    background-size: cover;
+}

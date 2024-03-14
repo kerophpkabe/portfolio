@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;400;500;700&family=Yusei+Magic&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="./img/fab.png">
+    <title>Ryohei.N Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <ul>
+                <li id="linksTop">top</li>
+                <li id="linksProf">prof</li>
+                <li id="linksWebpage">Webpage</li>
+                <li id="linksphotograph">photograph</li>
+                <li id="linksother">other</li>
+            </ul>
+        </div>
+        <div class="headerTitle">
+            <div class="title1">
+                <p>
+                    <span class="title1Span1">中野 亮平</span>
+                    <span class="title1Span2">の</span>
+                    <span class="title1Span3">ポートフォリオ</span>
+                </p>
+            </div>
+            <div class="title2">
+                <p>Ryohei.N's Portfolio</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section" id="top">
+            <div class="Out">
+                <div class="White">
+                    <div class="blackBoard">
+                        <ul class="topic1">
+                            <li class="topicText">私のポートフォリオを拝見してくださりありがとうございます。</li>
+                            <li class="topicText">ここでは、私の制作したWebページや写真などを準備しております。</li>
+                            <li class="topicText2">ご用件がございましたら、下記までご連絡ください。</li>
+                            <li class="postText"><a href="mailto:sunzmacz@gmail.com">メール：sunzmacz@gmail.com</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section hidden" id="prof">
+            <div class="Out">
+                <div class="White">
+                    <div class="blackBoard">
+                        <ul class="topic1">
+                            <li class="topicTop">プロフィール</li>
+                            <li class="topicText">中野　亮平
+                                <span class="accent01">　(ナカノ　リョウヘイ)</span>
+                            </li>
+                            <li class="topicTop">趣味など</li>
+                            <li class="topicText">音楽鑑賞、音楽演奏（共にクラシックが中心）<Br>
+                                映画・ドラマの鑑賞は気に入ると何度も見返します。<Br>
+                                ゲーム好きで特に自由度の高い探索ゲームに没頭しています。
+                            </li>
+                            <li class="topicTop">性格</li>
+                            <li class="topicText">
+                                めんどくさがりで慌て者ですが、人の為と思うと休みも惜しんで手助けをします。<br>良いことだといわれますが、時に手助けをすることで業務を混乱させる事もあると注意されました。<br>
+                                周りへの関心が強く、時に集中力を欠く短所がありますが、それを長所として活かし、全体の行動に注視する事で、現場全体を管理する能力を身に着けました。<br>
+                                この長所のおかげで、若い頃から区の音楽祭やボランティアグループの音楽コンサートで舞台監督を長年務めてきました。<br>
+                                また、前職では医薬品の会社に品質管理部の契約社員として入社後、周りを見る能力、想定外の事象が起きた際の柔軟な対応力を見ていただき正社員として雇用されました。
+                            </li>
+                            <li class="topicTop">特技</li>
+                            <li class="topicText">パソコンを自作した経験もあり、ハード面・ソフト面においてパソコンの扱いに長けています。<br>
+                                機械類の扱いも慣れており、工具類好きもあって多くの工具を使うことが出来ます。（溶接・クレーン(3t未満)・玉掛けの資格所持）<br>
+                                美術品の撮影・販売を業務として行った経験から、貴重品の管理・運搬などの知識もあります。<br>
+                                また、日々自炊しており、料理を食べること・作ることには定評があります。<br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section hidden" id="Webpage">
+            <div class="Out">
+                <div class="White">
+                    <div class="blackBoard">
+                        <h1>Webページ・パーツ・プログラム</h1>
+                        <h2>タイトルを押すと内容が出ます</h2>
+                        <div id="websection0">
+                            <ul class="topic1">
+                                <li class="topicTop" data-name="portfolio">ポートフォリオ</li>
+                            </ul>
+                            <ul class="topic2 hidden" id="portfolio">
+                                <li class="topicText">現在見ていただいているポートフォリオを作るにあたり、これまで実現したかったページ作りを実行しました。<br>
+                                    フォトギャラリーにおいては、写真をクリックすることでモーダル画面にし、その中でも撮影中の参考画像があるものだけ同時に表示するようにしています。<Br>
+                                    また、文字がある部分については、黒板を模したイメージにし、カジュアルに読めるようにしています。<br>
+                                    各ページのリンクは、各セクションを「display:none」で管理して表示制限をしています。<br>
+                                    ページの拡縮に対応できるようにパーツを「%」や「vw」で設定しています。<br>
+                                </li>
+                                <li>
+                                    <p class="webLink">
+                                        <a href="https://github.com/kerophpkabe/DesignHouseRenovations/tree/main"
+                                            target="_blank">閲覧ページを別タブで表示（Github）</a>
+                                    </p>
+                                </li>
+                                <p class="topicEnd">使用言語:HTML.CSS.Javasprict</p>
+                            </ul>
+                        </div>
+                        <p class="line" art="区切り線"></p>
+                        <div id="websection2">
+                            <ul class="topic1">
+                                <li class="topicTop" data-name="wpstudy1">Webプログラミング演習1</li>
+                            </ul>
+                            <ul class="topic2 hidden" id="wpstudy1">
+                                <li class="topicText">授業で作成した仮想リフォーム業者WEBサイトです。<br>
+                                    適用されたデータ通りに作成する事の難しさを痛感しました。<br>
+                                </li>
+                                <li>
+                                    <p class="webLink">
+                                        <a href="https://github.com/kerophpkabe/DesignHouseRenovations/tree/main"
+                                            target="_blank">閲覧ページを別タブで表示（Github）</a>
+                                    </p>
+                                    <p class="webLink">
+                                        <a href="http://kabe0701.cloudfree.jp/DesignHouseRenovations/"
+                                            target="_blank">閲覧ページを別タブで表示（web）</a>
+                                    </p>
+                                </li>
+                                <p class="topicEnd">使用言語:HTML.CSS</p>
+                            </ul>
+                        </div>
+                        <p class="line" art="区切り線"></p>
+                        <div id="websection2">
+                            <ul class="topic1">
+                                <li class="topicTop" data-name="namecard1">けろったーず用名刺</li>
+                            </ul>
+                            <ul class="topic2 hidden" id="namecard1">
+                                <li class="topicText">友人のイラストレーターが名刺のデザインを依頼してきたので、ポジションの練習を兼ねてデザインを行いました。<br>
+                                    ポジションを利用するだけではなく、CSSを利用して文字色を変えたりしています。<br>
+                                </li>
+                                <li>
+                                    <p class="webLink">
+                                        <a href="http://kabe0701.cloudfree.jp/keroters/index.html"
+                                            target="_blank">閲覧ページを別タブで表示（web）</a>
+                                    </p>
+                                </li>
+                                <p class="topicEnd">使用言語:HTML.CSS</p>
+                            </ul>
+                        </div>
+                        <p class="line" art="区切り線"></p>
+                        <div id="websection3">
+                            <ul class="topic1">
+                                <li class="topicTop" data-name="slideshow">画像をずらして表示：オリジナルパーツ</li>
+                            </ul>
+                            <ul class="topic2 hidden" id="slideshow">
+                                <li class="topicText">画像が複数表示され、数秒毎に横にずれていくパーツを自作しました。
+                                    Githubにはscriptだけを入れています。<br>
+                                </li>
+                                <li>
+                                <li>
+                                    <p class="webLink">
+                                        <a href="https://github.com/kerophpkabe/op1imgslide/commit/4afb2d12117d7b82392bcfb2a1184b364d8b3259"
+                                            target="_blank">閲覧ページを別タブで表示（Github）</a>
+                                    </p>
+                                    <p class="webLink">
+                                        <a href="http://kabe0701.cloudfree.jp/op01imgslide/"
+                                            target="_blank">閲覧ページを別タブで表示（web）</a>
+                                    </p>
+                                </li>
+                                <p class="topicEnd">使用言語:HTML.CSS.Javasprict</p>
+                            </ul>
+                        </div>
+                        <p class="line" art="区切り線"></p>
+                        <div id="websection4">
+                            <ul class="topic1">
+                                <li class="topicTop" data-name="imgonoff">要素を増やしたり減らしたり：作業用記録</li>
+                            </ul>
+                            <ul class="topic2 hidden" id="imgonoff">
+                                <li class="topicText">ID・クラスを指定したところに画像を増やしました。<br>
+                                    また、もともとクラスのない部分にＤＩＶを作りそこに画像を増やす作業もしています。<Br>
+                                    この部分で、クラスを付与するやり方、要素を取得・指定する際の違いなども判り勉強になりました<br>
+                                </li>
+                                <li>
+                                <li>
+                                    <p class="webLink">
+                                        <a href="https://github.com/kerophpkabe/imgonofsample/blame/main/index.html"
+                                            target="_blank">閲覧ページを別タブで表示（Github）</a>
+                                    </p>
+                                    <p class="webLink">
+                                        <a href="http://kabe0701.cloudfree.jp/imgonoffsample/"
+                                            target="_blank">閲覧ページを別タブで表示（web）</a>
+                                    </p>
+                                </li>
+                                <p class="topicEnd">使用言語:HTML.CSS.Javasprict</p>
+                            </ul>
+                        </div>
+                        <p class="line" art="区切り線"></p>
+                        <div id="websection5">
+                            <ul class="topic1">
+                                <li class="topicTop" data-name="platepuzzle">プレートパズル：自己作成ゲーム</li>
+                            </ul>
+                            <ul class="topic2 hidden" id="platepuzzle">
+                                <li class="topicText">よくある9面の入れ替えパズルです。<br>
+                                    不可能パターンの割り出しは説明できるので、後々自動判定できるようにします。<Br>
+                                    現在はボタンで不可能パターンを回避できるようにしています。<br>
+                                    完成判定はコンソールに出力、その後もう一度ボタンで遊べるのですが、現在は2回目からエラーが出ている状態です。<br>
+                                    今後、直していきたいと考えています。<br>
+                                </li>
+                                <li>
+                                <li>
+                                    <p class="webLink">
+                                        <a href="https://github.com/kerophpkabe/practistouch"
+                                            target="_blank">閲覧ページを別タブで表示（Github）</a>
+                                    </p>
+                                    <p class="webLink">
+                                        <a href="http://kabe0701.cloudfree.jp/platepazzle/"
+                                            target="_blank">閲覧ページを別タブで表示（web）</a>
+                                    </p>
+                                </li>
+                                <p class="topicEnd">使用言語:HTML.CSS.Javasprict</p>
+                            </ul>
+                        </div>
+                        <p class="line" art="区切り線"></p>
+                        <div id="websection6">
+                            <ul class="topic1">
+                                <li class="topicTop" data-name="touch">タッチ操作で画像を移動：自己学習</li>
+                            </ul>
+                            <ul class="topic2 hidden" id="touch">
+                                <li class="topicText">タッチ操作・マウス操作の両方で画像を移動できるだけです。<br>
+                                    タッチでの操作はすぐに完成して、マウス操作について悩みました。
+                                    どうしても掴んだ画像を再度クリックしないと離さない現象がありましたが、<Br>
+                                    最終的に、「, { passive: false }」を使わないと動かない事がわかりました。<br>
+                                    今後はいろいろな箇所にこのシステムを導入して、動きの使えるページを作っていきます。
+                                    なお、青いDIVのエリアの未稼働ですが、画像以外の場所でも常に座標をとっています。<br>
+                                </li>
+                                <li>
+                                <li>
+                                    <p class="webLink">
+                                        <a href="https://github.com/kerophpkabe/platepazzle"
+                                            target="_blank">閲覧ページを別タブで表示（Github）</a>
+                                    </p>
+                                    <p class="webLink">
+                                        <a href="http://kabe0701.cloudfree.jp/practistouch/"
+                                            target="_blank">閲覧ページを別タブで表示（web）</a>
+                                    </p>
+                                </li>
+                                <p class="topicEnd">使用言語:HTML.CSS.Javasprict</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section hidden" id="photograph">
+            <div id="modalCase" class="hidden">
+                <div class="modalCase2">
+                    <div class="modalBox">
+                        <div class="modalIn">
+                            <img id="picSet" src="./img/asuka.png">
+                        </div>
+                        <div class="modalIn2 hidden">
+                            <img id="picSet2" src="./img/asuka.png">
+                        </div>
+                    </div>
+                    <div class="picFreamOff">
+                    </div>
+                </div>
+            </div>
+            <div class="picDiv">
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/asuka.png" data-image="asuka.png" data-check="0">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/rocket.png" data-image="rocket.png" data-check="1">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/alien.png" data-image="alien.png" data-check="0">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/touki.png" data-image="touki.png" data-check="0">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/monhan.png" data-image="monhan.png" data-check="0">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/train01.png" data-image="train01.png" data-check="1">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/train02.png" data-image="train02.png" data-check="1">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/apex.png" data-image="apex.png" data-check="1">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/assault.png" data-image="assault.png" data-check="0">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/snip.png" data-image="snip.png" data-check="0">
+                </div>
+                <div class="picFream">
+                    <img class="PhotoImg" src="./img/tanukitu.png" data-image="tanukitu.png" data-check="0">
+                </div>
+            </div>
+        </section>
+        <section class="section hidden" id="other">
+            <div class="Out">
+                <div class="White">
+                    <div class="blackBoard">
+                        <ul class="topic1">
+                            <li class="topicTop">ワークリスト</li>
+                            <li class="topicText">これまでの仕事の履歴など</li>
+                            <li class="topicText"><span class="accent01">何年度等の詳細は省略しています。</span></li>
+                            <li class="topicText">豊島区器楽演奏会　舞台監督（12回）</li>
+                            <li class="topicText">豊島区主催音楽祭（東京芸術劇場）舞台監督</li>
+                            <li class="topicText">NPO法人パルケデボスケ主催コンサート　企画・舞台監督・管理業務等</li>
+                            <li class="topicText">PC導入・マニュアル化・年次更新・記録保管等の委託業務　6社(個人経営2人を含む)</li>
+                            <li class="topicText">※上記はすべて現在実施しておりません。</li>
+                            <li class="topicText">JIIMA主催文書情報管理士　2級取得経験あり（未更新）</li>
+                            <li class="topicText">能率協会連盟主催　CMC資格取得経験あり（未更新）</li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <div class="footertext">Ryohei Nakano 2024/01 ポートフォリオ制作 toldec</div>
+        </div>
+    </footer>
+    <script src="./script/jquery-3.7.1.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
