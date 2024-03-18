@@ -158,7 +158,7 @@ h2 {
 }
 
 .topicTop {
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     padding: 0 0 0.8vw 0;
     @media screen and (max-width: 690px) {
         font-size: 3.8vw;
@@ -170,7 +170,7 @@ h2 {
     padding: 0 0 0 0.8vw;
     margin-bottom: 1.5vw;
     @media screen and (max-width: 690px) {
-        font-size: 3.6vw;
+        font-size: 3.2vw;
         margin-bottom: 2vw;
     }
 }
