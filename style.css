@@ -34,6 +34,15 @@ header .links {
     }
 }
 
+a:hover,
+.linksText:hover,
+.topicTop:hover,
+.PhotoImg:hover
+ {
+    cursor: pointer;
+}
+
+
 .links {
     z-index: 20;
 }
